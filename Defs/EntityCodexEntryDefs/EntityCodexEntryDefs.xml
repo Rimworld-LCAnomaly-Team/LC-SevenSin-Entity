@@ -6,7 +6,7 @@
   	<defName>SevenSinEntity_ZAYIN</defName>
     <label>SevenSinEntity_ZAYIN</label>
     <description>SevenSinEntity_ZAYIN.</description>
-    <uiIconPath>UI/CodexEntries/GluttonyEntity</uiIconPath>
+    <uiIconPath>UI/CodexEntries/SevenSinEntity</uiIconPath>
     <category>ZAYIN</category>
     <linkedThings>
       <li>GluttonyEntity</li>
