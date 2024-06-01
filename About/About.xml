@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LC SevenSin Entity</name>
+	<author>DarthCY</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Add 6 SevenSin Entities from LimbusCompany.</description>
+	<packageId>DarthCY.LC.SevenSinEntity</packageId>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>DLC Anomaly</displayName>
+		</li>
+		<li>
+			<packageId>DarthCY.LC.AnomalyLibrary</packageId>
+			<displayName>LCAnomalyLibrary</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>DarthCY.LC.AnomalyLibrary</li>
+	</loadAfter>
+</ModMetaData>

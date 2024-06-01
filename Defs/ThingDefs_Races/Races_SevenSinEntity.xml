@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn" Name="BaseSevenSinEntity" Abstract="True">
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <tradeability>None</tradeability>
+    <hideStats>true</hideStats>
+    <onlyShowInspectString>true</onlyShowInspectString>
+    <hideMainDesc>true</hideMainDesc>
+
+    <statBases>
+      <MoveSpeed>1</MoveSpeed>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>100</ComfyTemperatureMax>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>20</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+
+    <race>
+      <body>BaseSevenSinEntity</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <intelligence>ToolUser</intelligence>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <fleshType>EntityMechanical</fleshType>
+      <foodType>None</foodType>
+      <hasCorpse>true</hasCorpse>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <soundCallIntervalRange>120~240</soundCallIntervalRange>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <hediffGiverSets><li>AnomalyEntity</li></hediffGiverSets>
+      <lifeStageAges>
+        <li>
+          <!--？？？-->
+          <def>EntityFullyFormed</def>
+          <!--死亡声音-->
+          <soundDeath>MeatLantern_Defeated</soundDeath>
+        </li>
+      </lifeStageAges>
+    </race>
+
+    <comps>
+      <li Class="LC_SevenSin.Comp.CompProperties_SevenSinEntity">
+        <qliphothCountMax>4</qliphothCountMax>
+        <studySucessRateBase>0.8</studySucessRateBase>
+        <peBoxDef>PeBoxZAYIN</peBoxDef>
+        <amountPeBoxStudySuccess>1</amountPeBoxStudySuccess>
+        <amountPeBoxStudyFail>0</amountPeBoxStudyFail> 
+        <accessoryChance>0</accessoryChance>
+        <shoundNotifyWhenEscape>true</shoundNotifyWhenEscape>
+      </li>
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>100</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>true</lookForTargetOnEscape>
+        <hasAnimation>false</hasAnimation>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.35, 0, .35)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.35, 0, .35)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.2, 0, -.71)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.71)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>0</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>60000</frequencyTicks>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <anomalyKnowledge>3</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+  <!-- Gluttony -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>GluttonyEntity</defName>
+    <label>GluttonyEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/GluttonyEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+  <!-- Lust -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>LustEntity</defName>
+    <label>LustEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/LustEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+  <!-- Melancholy -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>MelancholyEntity</defName>
+    <label>MelancholyEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/MelancholyEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+  <!-- Pride -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>PrideEntity</defName>
+    <label>PrideEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/PrideEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+  <!-- Sloth -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>SlothEntity</defName>
+    <label>SlothEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/SlothEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+  <!-- Wrath -->
+  <ThingDef ParentName="BaseSevenSinEntity">
+    <defName>WrathEntity</defName>
+    <label>WrathEntity</label>
+    <description>.</description>
+    <uiIconPath>UI/CodexEntries/WrathEntity</uiIconPath>
+    <race>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+    </race>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ZAYIN -->
+  <EntityCodexEntryDef>
+  	<defName>SevenSinEntity_ZAYIN</defName>
+    <label>SevenSinEntity_ZAYIN</label>
+    <description>SevenSinEntity_ZAYIN.</description>
+    <uiIconPath>UI/CodexEntries/GluttonyEntity</uiIconPath>
+    <category>ZAYIN</category>
+    <linkedThings>
+      <li>GluttonyEntity</li>
+      <li>LustEntity</li>
+      <li>MelancholyEntity</li>
+      <li>PrideEntity</li>
+      <li>SlothEntity</li>
+      <li>WrathEntity</li>
+    </linkedThings>
+    <orderInCategory>800</orderInCategory>
+  </EntityCodexEntryDef>
+
+</Defs>

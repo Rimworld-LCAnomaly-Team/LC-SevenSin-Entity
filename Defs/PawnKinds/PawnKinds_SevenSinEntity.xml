@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin Name="BaseSevenSinEntityKind" Abstract="True">
+    <defaultFactionType>Entities</defaultFactionType>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+    <forceDeathOnDowned>false</forceDeathOnDowned>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Gluttony -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>GluttonyEntity</defName>
+    <label>GluttonyEntity</label>
+    <race>GluttonyEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Gluttony/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/GluttonyEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Lust -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>LustEntity</defName>
+    <label>LustEntity</label>
+    <race>LustEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Lust/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/LustEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Melancholy -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>MelancholyEntity</defName>
+    <label>MelancholyEntity</label>
+    <race>MelancholyEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Melancholy/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/MelancholyEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Pride -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>PrideEntity</defName>
+    <label>PrideEntity</label>
+    <race>PrideEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Pride/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/PrideEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Sloth -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>SlothEntity</defName>
+    <label>SlothEntity</label>
+    <race>SlothEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Sloth/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/SlothEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+  <!-- Wrath -->
+  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+    <defName>WrathEntity</defName>
+    <label>WrathEntity</label>
+    <race>WrathEntity</race>
+    <combatPower>20</combatPower>
+    <anomalyLevelTag>ZAYIN</anomalyLevelTag>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Wrath/Alive</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/WrathEntity</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+
+</Defs>
