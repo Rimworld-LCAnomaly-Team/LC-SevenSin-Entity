@@ -6,6 +6,11 @@ namespace LC_SevenSin.Comp
 {
     public class CompSevenSinEntity : LC_CompEntity
     {
+        public override void Notify_Killed(Map prevMap, DamageInfo? dinfo = null)
+        {
+            base.Notify_Killed(prevMap, dinfo);
+        }
+
         public override void Notify_Escaped()
         {
         }
