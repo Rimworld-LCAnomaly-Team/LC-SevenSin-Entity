@@ -32,6 +32,17 @@
           <groups>
             <li>Torso</li>
           </groups>
+          <parts>
+            <li>
+              <def>FleshbeastSpike</def>
+              <customLabel>back spike</customLabel>
+              <coverage>0.77</coverage>
+              <groups>
+                <li>Arms</li>
+                <li>MiddleSpike</li>
+              </groups>
+            </li>
+          </parts>
         </li>
         <li>
           <def>Stomach</def>
@@ -197,5 +208,5 @@
       </parts>
     </corePart>
   </BodyDef>
-
+  
 </Defs>

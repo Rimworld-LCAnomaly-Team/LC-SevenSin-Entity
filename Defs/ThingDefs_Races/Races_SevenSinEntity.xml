@@ -2,39 +2,39 @@
 <Defs>
 
   <ThingDef ParentName="BasePawn" Name="BaseSevenSinEntity" Abstract="True">
-    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
-    <tradeability>None</tradeability>
-    <hideStats>true</hideStats>
-    <onlyShowInspectString>true</onlyShowInspectString>
-    <hideMainDesc>true</hideMainDesc>
 
     <statBases>
-      <MoveSpeed>1</MoveSpeed>
-      <Flammability>0</Flammability>
-      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
-      <ComfyTemperatureMax>100</ComfyTemperatureMax>
-      <PsychicSensitivity>0</PsychicSensitivity>
-      <MinimumContainmentStrength>20</MinimumContainmentStrength>
-      <StaggerDurationFactor>0</StaggerDurationFactor>
-      <ToxicResistance>1</ToxicResistance>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>70</MeatAmount>
     </statBases>
+
+    <tradeability>None</tradeability>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
 
     <race>
       <body>BaseSevenSinEntity</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
-      <fleshType>EntityMechanical</fleshType>
+      <fleshType>Fleshbeast</fleshType>
       <foodType>None</foodType>
       <hasCorpse>true</hasCorpse>
       <lifeExpectancy>1000</lifeExpectancy>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
       <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
       <soundCallIntervalRange>120~240</soundCallIntervalRange>
       <disableIgniteVerb>true</disableIgniteVerb>
       <trainability>None</trainability>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
       <hediffGiverSets><li>AnomalyEntity</li></hediffGiverSets>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
       <lifeStageAges>
         <li>
           <!--？？？-->
@@ -91,6 +91,34 @@
         <requiresHoldingPlatform>true</requiresHoldingPlatform>
       </li>
     </comps>
+
+    <tools>
+      <li>
+        <label>spike</label>
+        <labelNoLocation>spike</labelNoLocation>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.5</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
 
   </ThingDef>
 
