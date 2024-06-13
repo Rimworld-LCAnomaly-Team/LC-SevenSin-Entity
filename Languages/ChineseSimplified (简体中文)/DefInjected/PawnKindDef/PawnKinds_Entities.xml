@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <GluttonyEntity.label>暴食罪种（ZAYIN）</GluttonyEntity.label>
+  
+  <LustEntity.label>色欲罪种（ZAYIN）</LustEntity.label>
+
+  <MelancholyEntity.label>忧郁罪种（ZAYIN）</MelancholyEntity.label>
+
+  <PrideEntity.label>傲慢罪种（ZAYIN）</PrideEntity.label>
+
+  <SlothEntity.label>怠惰罪种（ZAYIN）</SlothEntity.label>
+
+  <WrathEntity.label>暴怒罪种（ZAYIN）</WrathEntity.label>
+  
+</LanguageData>

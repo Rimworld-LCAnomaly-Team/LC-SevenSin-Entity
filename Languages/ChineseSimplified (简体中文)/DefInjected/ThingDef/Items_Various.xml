@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <GluttonyDead.label>暴食罪种的残骸（ZAYIN）</GluttonyDead.label>
+  <GluttonyDead.description>暴食罪种死亡后留下的的残骸。</GluttonyDead.description>
+
+  <LustDead.label>色欲罪种的残骸（ZAYIN）</LustDead.label>
+  <LustDead.description>色欲罪种死亡后留下的的残骸。</LustDead.description>
+
+  <MelancholyDead.label>忧郁罪种的残骸（ZAYIN）</MelancholyDead.label>
+  <MelancholyDead.description>忧郁罪种死亡后留下的的残骸。</MelancholyDead.description>
+
+  <PrideDead.label>傲慢罪种的残骸（ZAYIN）</PrideDead.label>
+  <PrideDead.description>傲慢罪种死亡后留下的的残骸。</PrideDead.description>
+
+  <SlothDead.label>怠惰罪种的残骸（ZAYIN）</SlothDead.label>
+  <SlothDead.description>怠惰罪种死亡后留下的的残骸。</SlothDead.description>
+
+  <WrathDead.label>暴怒罪种的残骸（ZAYIN）</WrathDead.label>
+  <WrathDead.description>暴怒罪种死亡后留下的的残骸。</WrathDead.description>
+  
+</LanguageData>
