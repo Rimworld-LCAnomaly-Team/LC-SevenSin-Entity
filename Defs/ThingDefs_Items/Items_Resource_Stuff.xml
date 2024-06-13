@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef Name="SevenSinDeadBase" ParentName="ResourceBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>999</stackLimit>
+    <genericMarketSellable>false</genericMarketSellable>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>1.00</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <!-- Gluttony -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>GluttonyDead</defName>
+    <label>GluttonyDead</label>
+    <description>GluttonyDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/GluttonyDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>GluttonyEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+  <!-- Lust -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>LustDead</defName>
+    <label>LustDead</label>
+    <description>LustDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/LustDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>LustEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+  <!-- Melancholy -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>MelancholyDead</defName>
+    <label>MelancholyDead</label>
+    <description>MelancholyDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/MelancholyDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>MelancholyEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+  <!-- Pride -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>PrideDead</defName>
+    <label>PrideDead</label>
+    <description>PrideDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/PrideDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>PrideEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+  <!-- Sloth -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>SlothDead</defName>
+    <label>SlothDead</label>
+    <description>SlothDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/SlothDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>SlothEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+  <!-- Wrath -->
+  <ThingDef ParentName="SevenSinDeadBase">
+    <defName>WrathDead</defName>
+    <label>WrathDead</label>
+    <description>WrathDead</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dead/WrathDead</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+      <ThingDef>WrathEntity</ThingDef>
+    </descriptionHyperlinks>
+    <comps></comps>
+  </ThingDef>
+
+</Defs>

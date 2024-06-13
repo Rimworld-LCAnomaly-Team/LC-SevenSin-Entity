@@ -28,11 +28,6 @@ namespace LC_SevenSin.Comp
             biosignature = Rand.Int;
         }
 
-        public override void PostSpawnSetup(bool respawningAfterLoad)
-        {
-            base.PostSpawnSetup(respawningAfterLoad);
-        }
-
         protected override bool CheckIfFinalStudySuccess(Pawn studier)
         {
             //每级智力提供5%成功率，4级智力提供20%成功率
@@ -52,16 +47,6 @@ namespace LC_SevenSin.Comp
             }
 
             return true;
-        }
-
-        protected override void StudyEvent_Failure(Pawn studier)
-        {
-            base.StudyEvent_Failure(studier);
-        }
-
-        protected override void StudyEvent_Success(Pawn studier)
-        {
-            base.StudyEvent_Success(studier);
         }
     }
 }

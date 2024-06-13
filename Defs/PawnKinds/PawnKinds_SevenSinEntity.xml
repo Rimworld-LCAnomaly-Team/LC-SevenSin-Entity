@@ -7,7 +7,7 @@
     <meleeAttackInfectionPathways>
       <li>EntityAttacked</li>
     </meleeAttackInfectionPathways>
-    <forceDeathOnDowned>false</forceDeathOnDowned>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
   </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Gluttony -->
@@ -22,13 +22,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Gluttony/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Gluttony/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/GluttonyEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -50,13 +45,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Lust/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Lust/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/LustEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -78,13 +68,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Melancholy/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Melancholy/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/MelancholyEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -106,13 +91,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Pride/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Pride/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/PrideEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -134,13 +114,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Sloth/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Sloth/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/SlothEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -162,13 +137,8 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Wrath/Alive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Wrath/Dead</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
         <silhouetteGraphicData>
           <texPath>UI/CodexEntries/WrathEntity</texPath>
           <graphicClass>Graphic_Single</graphicClass>
