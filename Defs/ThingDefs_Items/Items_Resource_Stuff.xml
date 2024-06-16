@@ -4,6 +4,7 @@
   <ThingDef Name="SevenSinDeadBase" ParentName="ResourceBase" Abstract="True">
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
     </graphicData>
     <stackLimit>999</stackLimit>
     <genericMarketSellable>false</genericMarketSellable>
