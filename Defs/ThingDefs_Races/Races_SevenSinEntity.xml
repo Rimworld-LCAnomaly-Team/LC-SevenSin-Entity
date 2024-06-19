@@ -56,8 +56,9 @@
         <qliphothCountMax>4</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
         <peBoxDef>PeBoxZAYIN</peBoxDef>
-        <amountPeBoxStudySuccess>1</amountPeBoxStudySuccess>
-        <amountPeBoxStudyFail>0</amountPeBoxStudyFail> 
+        <amountPeBoxStudyGood>1</amountPeBoxStudyGood>
+        <amountPeBoxStudyNormal>0</amountPeBoxStudyNormal>
+        <amountPeBoxStudyBad>0</amountPeBoxStudyBad> 
         <accessoryChance>0</accessoryChance>
         <shoundNotifyWhenEscape>true</shoundNotifyWhenEscape>
       </li>
@@ -86,11 +87,11 @@
           </li>
         </points>
       </li>
-      <li Class="CompProperties_ProducesBioferrite">
+      <!-- <li Class="CompProperties_ProducesBioferrite">
         <bioferriteDensity>0</bioferriteDensity>
-      </li>
+      </li> -->
       <li Class="CompProperties_Studiable">
-        <frequencyTicks>60000</frequencyTicks>
+        <frequencyTicks>120000</frequencyTicks>
         <knowledgeCategory>Basic</knowledgeCategory>
         <anomalyKnowledge>3</anomalyKnowledge>
         <minMonolithLevelForStudy>1</minMonolithLevelForStudy>

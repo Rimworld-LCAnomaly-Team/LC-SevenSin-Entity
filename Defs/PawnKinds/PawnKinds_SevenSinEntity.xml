@@ -7,7 +7,7 @@
     <meleeAttackInfectionPathways>
       <li>EntityAttacked</li>
     </meleeAttackInfectionPathways>
-    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <forceDeathOnDowned>false</forceDeathOnDowned>
   </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Gluttony -->
