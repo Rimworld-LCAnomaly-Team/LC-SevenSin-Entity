@@ -60,6 +60,7 @@ namespace LC_SevenSin.Comp
                 case LC_StudyResult.Good:
                     QliphothCountCurrent++;
                     break;
+
                 case LC_StudyResult.Normal:
                     break;
             }
