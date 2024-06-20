@@ -1,4 +1,5 @@
 ﻿using LCAnomalyLibrary.Comp;
+using LCAnomalyLibrary.Util;
 using RimWorld;
 using Verse;
 
@@ -28,25 +29,49 @@ namespace LC_SevenSin.Comp
             biosignature = Rand.Int;
         }
 
-        protected override bool CheckIfFinalStudySuccess(Pawn studier)
+        protected override LC_StudyResult CheckFinalStudyQuality(Pawn studier)
         {
             //每级智力提供5%成功率，4级智力提供20%成功率
             float successRate_Intellectual = studier.skills.GetSkill(SkillDefOf.Intellectual).Level * 0.05f;
             //叠加基础成功率，此处是80%，叠加完应是100%
             float finalSuccessRate = successRate_Intellectual + Props.studySucessRateBase;
+            //成功率不能超过95%
+            if (finalSuccessRate >= 1f)
+                finalSuccessRate = 0.95f;
 
-            return Rand.Chance(finalSuccessRate);
+            return Rand.Chance(finalSuccessRate) ? LC_StudyResult.Good : LC_StudyResult.Normal;
         }
 
         protected override bool CheckStudierSkillRequire(Pawn studier)
         {
             if (studier.skills.GetSkill(SkillDefOf.Intellectual).Level < 1)
             {
-                Log.Message($"研究者{studier.Name}的技能{SkillDefOf.Intellectual.defName.Translate()}不足1，研究固定无法成功");
+                Log.Message($"工作：{studier.Name}的技能{SkillDefOf.Intellectual.defName.Translate()}等级不足1，工作固定无法成功");
                 return false;
             }
 
             return true;
+        }
+
+        protected override void StudyEvent_NotBad(Pawn studier, LC_StudyResult result)
+        {
+            switch (result)
+            {
+                case LC_StudyResult.Good:
+                    QliphothCountCurrent++;
+                    break;
+                case LC_StudyResult.Normal:
+                    break;
+            }
+
+            CheckSpawnPeBox(studier, result);
+            StudyUtil.DoStudyResultEffect(studier, SelfPawn, result);
+        }
+
+        protected override void StudyEvent_Bad(Pawn studier)
+        {
+            base.StudyEvent_Bad(studier);
+            CheckSpawnPeBox(studier, LC_StudyResult.Bad);
         }
     }
 }
