@@ -6,6 +6,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<description>Add 6 SevenSin Entities from LimbusCompany.</description>
+	<url>https://github.com/DarthCY-K/LC-SevenSin-Entity</url>
 	<packageId>DarthCY.LC.SevenSinEntity</packageId>
 	<modDependencies>
 		<li>
@@ -15,6 +16,7 @@
 		<li>
 			<packageId>DarthCY.LC.AnomalyLibrary</packageId>
 			<displayName>LCAnomalyLibrary</displayName>
+			<downloadUrl>https://github.com/DarthCY-K/LC-Anomaly-Library/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
