@@ -55,10 +55,6 @@
       <li Class="LC_SevenSin.Comp.CompProperties_SevenSinEntity">
         <qliphothCountMax>4</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
-        <peBoxDef>PeBoxZAYIN</peBoxDef>
-        <amountPeBoxStudyGood>1</amountPeBoxStudyGood>
-        <amountPeBoxStudyNormal>0</amountPeBoxStudyNormal>
-        <amountPeBoxStudyBad>0</amountPeBoxStudyBad> 
         <accessoryChance>0</accessoryChance>
         <shoundNotifyWhenEscape>true</shoundNotifyWhenEscape>
       </li>
