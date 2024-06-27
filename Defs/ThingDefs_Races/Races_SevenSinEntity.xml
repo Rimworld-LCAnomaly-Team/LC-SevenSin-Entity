@@ -53,10 +53,18 @@
 
     <comps>
       <li Class="LC_SevenSin.Comp.CompProperties_SevenSinEntity">
-        <qliphothCountMax>4</qliphothCountMax>
+        <qliphothCountMax>2</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
         <accessoryChance>0</accessoryChance>
+        <ifProvideWarningPoints>true</ifProvideWarningPoints>
+        <customWarningPoints>-1</customWarningPoints>
         <shoundNotifyWhenEscape>true</shoundNotifyWhenEscape>
+      </li>
+      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_PeBoxProduce">
+        <peBoxDef>PeBoxZAYIN</peBoxDef>
+        <amountStudyGood>2</amountStudyGood>
+        <amountStudyNormal>1</amountStudyNormal> 
+        <amountStudyBad>0</amountStudyBad>
       </li>
       <li Class="CompProperties_HoldingPlatformTarget">
         <baseEscapeIntervalMtbDays>100</baseEscapeIntervalMtbDays>
@@ -83,9 +91,6 @@
           </li>
         </points>
       </li>
-      <!-- <li Class="CompProperties_ProducesBioferrite">
-        <bioferriteDensity>0</bioferriteDensity>
-      </li> -->
       <li Class="CompProperties_Studiable">
         <frequencyTicks>120000</frequencyTicks>
         <knowledgeCategory>Basic</knowledgeCategory>

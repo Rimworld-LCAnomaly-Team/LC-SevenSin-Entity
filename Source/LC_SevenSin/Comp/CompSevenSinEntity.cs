@@ -23,10 +23,8 @@ namespace LC_SevenSin.Comp
 
             CheckIfStudySuccess(studier);
         }
-
-        public override void PostPostMake()
+        public override void Notify_Holded()
         {
-            biosignature = Rand.Int;
         }
 
         protected override LC_StudyResult CheckFinalStudyQuality(Pawn studier)
@@ -65,14 +63,18 @@ namespace LC_SevenSin.Comp
                     break;
             }
 
-            CheckSpawnPeBox(studier, result);
-            StudyUtil.DoStudyResultEffect(studier, SelfPawn, result);
+            if (PeboxComp != null)
+                PeboxComp.CheckSpawnPeBox(studier, result);
+
+            StudyUtil.DoStudyResultEffect(studier, (Pawn)parent, result);
         }
 
         protected override void StudyEvent_Bad(Pawn studier)
         {
             base.StudyEvent_Bad(studier);
-            CheckSpawnPeBox(studier, LC_StudyResult.Bad);
+
+            if (PeboxComp != null)
+                PeboxComp.CheckSpawnPeBox(studier, LC_StudyResult.Bad);
         }
     }
 }
