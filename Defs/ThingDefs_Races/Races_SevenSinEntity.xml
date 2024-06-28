@@ -55,7 +55,6 @@
       <li Class="LC_SevenSin.Comp.CompProperties_SevenSinEntity">
         <qliphothCountMax>2</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
-        <accessoryChance>0</accessoryChance>
         <ifProvideWarningPoints>true</ifProvideWarningPoints>
         <customWarningPoints>-1</customWarningPoints>
         <shoundNotifyWhenEscape>true</shoundNotifyWhenEscape>
