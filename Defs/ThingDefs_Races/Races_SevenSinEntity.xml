@@ -56,13 +56,11 @@
         <qliphothCountMax>2</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
         <shouldNotifyWhenEscape>true</shouldNotifyWhenEscape>
-        <shouldTransferStudyProgress>false</shouldTransferStudyProgress>
-        <shouldTransferEgoExtractAmount>false</shouldTransferEgoExtractAmount>
         <ifProvideWarningPoints>true</ifProvideWarningPoints>
         <customWarningPoints>-1</customWarningPoints>
       </li>
       <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_PeBoxProduce">
-        <peBoxDef>PeBoxZAYIN</peBoxDef>
+        <peBoxDef>EnkephalinBox</peBoxDef>
         <amountStudyGood>2</amountStudyGood>
         <amountStudyNormal>1</amountStudyNormal> 
         <amountStudyBad>0</amountStudyBad>
