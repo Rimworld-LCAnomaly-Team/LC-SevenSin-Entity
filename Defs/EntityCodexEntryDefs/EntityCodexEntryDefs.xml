@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- ZAYIN -->
-  <EntityCodexEntryDef>
+  <LCAnomalyLibrary.Defs.EntityCodexEntryDef>
   	<defName>SevenSinEntity_ZAYIN</defName>
     <label>SevenSinEntity_ZAYIN</label>
     <description>SevenSinEntity_ZAYIN.</description>
@@ -17,6 +17,6 @@
       <li>WrathEntity</li>
     </linkedThings>
     <orderInCategory>800</orderInCategory>
-  </EntityCodexEntryDef>
+  </LCAnomalyLibrary.Defs.EntityCodexEntryDef>
 
 </Defs>
