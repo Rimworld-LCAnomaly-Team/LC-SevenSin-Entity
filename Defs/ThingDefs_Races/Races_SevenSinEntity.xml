@@ -59,7 +59,7 @@
         <ifProvideWarningPoints>true</ifProvideWarningPoints>
         <customWarningPoints>-1</customWarningPoints>
       </li>
-      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_PeBoxProduce">
+      <li Class="LCAnomalyCore.Comp.CompProperties_PeBoxProduce">
         <peBoxDef>EnkephalinBox</peBoxDef>
         <amountStudyGood>2</amountStudyGood>
         <amountStudyNormal>1</amountStudyNormal> 
