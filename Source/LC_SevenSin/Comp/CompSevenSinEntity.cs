@@ -62,9 +62,8 @@ namespace LC_SevenSin.Comp
                 case LC_StudyResult.Normal:
                     break;
             }
-
-            if (PeboxComp != null)
-                PeboxComp.CheckSpawnPeBox(studier, result);
+            
+            PeBoxComp?.CheckSpawnPeBox(studier, result);
 
             StudyUtil.DoStudyResultEffect(studier, (Pawn)parent, result);
         }
@@ -72,9 +71,8 @@ namespace LC_SevenSin.Comp
         protected override void StudyEvent_Bad(Pawn studier)
         {
             base.StudyEvent_Bad(studier);
-
-            if (PeboxComp != null)
-                PeboxComp.CheckSpawnPeBox(studier, LC_StudyResult.Bad);
+            
+            PeBoxComp?.CheckSpawnPeBox(studier, LC_StudyResult.Bad);
         }
     }
 }
