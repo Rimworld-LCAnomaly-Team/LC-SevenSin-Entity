@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BasePawn" Name="BaseSevenSinEntity" Abstract="True">
+  <ThingDef ParentName="LC_EntityBase" Name="BaseSevenSinEntity" Abstract="True">
 
     <statBases>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -9,10 +9,7 @@
       <Flammability>1.25</Flammability>
       <MeatAmount>0</MeatAmount>
     </statBases>
-
-    <tradeability>None</tradeability>
-    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
-
+    
     <race>
       <body>BaseSevenSinEntity</body>
       <baseBodySize>2</baseBodySize>

@@ -40,7 +40,7 @@ namespace LC_SevenSin.Comp
             return Rand.Chance(finalSuccessRate) ? LC_StudyResult.Good : LC_StudyResult.Normal;
         }
 
-        protected override bool CheckStudierSkillRequire(Pawn studier)
+        public override bool CheckStudierSkillRequire(Pawn studier)
         {
             if (studier.skills.GetSkill(SkillDefOf.Intellectual).Level < 1)
             {
