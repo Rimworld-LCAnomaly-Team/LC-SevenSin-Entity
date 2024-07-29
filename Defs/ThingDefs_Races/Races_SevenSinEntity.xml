@@ -2,6 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="LC_EntityBase" Name="BaseSevenSinEntity" Abstract="True">
+    <thingClass>LC_SevenSin.Things.LC_SevenSinPawn</thingClass>
 
     <statBases>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>

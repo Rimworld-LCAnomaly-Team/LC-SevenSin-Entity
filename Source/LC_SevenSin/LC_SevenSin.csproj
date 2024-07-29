@@ -73,6 +73,7 @@
     <Compile Include="Comp\CompSevenSinEntity.cs" />
     <Compile Include="Defs\PawnKindDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Things\LC_SevenSinPawn.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
