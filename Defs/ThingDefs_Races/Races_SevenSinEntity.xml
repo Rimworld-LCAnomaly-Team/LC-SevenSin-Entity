@@ -51,7 +51,7 @@
 
     <comps>
       <li Class="LC_SevenSin.Comp.CompProperties_SevenSinEntity">
-        <qliphothCountMax>2</qliphothCountMax>
+        <qliphothCountMax>3</qliphothCountMax>
         <studySucessRateBase>0.8</studySucessRateBase>
         <shouldNotifyWhenEscape>true</shouldNotifyWhenEscape>
         <ifProvideWarningPoints>true</ifProvideWarningPoints>
@@ -59,9 +59,9 @@
       </li>
       <li Class="LCAnomalyCore.Comp.CompProperties_PeBoxProduce">
         <peBoxDef>EnkephalinBox</peBoxDef>
-        <amountStudyGood>2</amountStudyGood>
-        <amountStudyNormal>1</amountStudyNormal> 
-        <amountStudyBad>0</amountStudyBad>
+        <amountStudyGood>6</amountStudyGood>
+        <amountStudyNormal>3</amountStudyNormal> 
+        <amountStudyBad>1</amountStudyBad>
       </li>
       <li Class="CompProperties_HoldingPlatformTarget">
         <baseEscapeIntervalMtbDays>100</baseEscapeIntervalMtbDays>
