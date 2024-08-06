@@ -131,7 +131,7 @@
   <!-- Gluttony -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>GluttonyEntity</defName>
-    <label>GluttonyEntity</label>
+    <label>Gluttony Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/GluttonyEntity</uiIconPath>
     <race>
@@ -150,7 +150,7 @@
   <!-- Lust -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>LustEntity</defName>
-    <label>LustEntity</label>
+    <label>Lust Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/LustEntity</uiIconPath>
     <race>
@@ -169,7 +169,7 @@
   <!-- Melancholy -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>MelancholyEntity</defName>
-    <label>MelancholyEntity</label>
+    <label>Melancholy Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/MelancholyEntity</uiIconPath>
     <race>
@@ -188,7 +188,7 @@
   <!-- Pride -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>PrideEntity</defName>
-    <label>PrideEntity</label>
+    <label>Pride Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/PrideEntity</uiIconPath>
     <race>
@@ -207,7 +207,7 @@
   <!-- Sloth -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>SlothEntity</defName>
-    <label>SlothEntity</label>
+    <label>Sloth Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/SlothEntity</uiIconPath>
     <race>
@@ -226,7 +226,7 @@
   <!-- Wrath -->
   <ThingDef ParentName="BaseSevenSinEntity">
     <defName>WrathEntity</defName>
-    <label>WrathEntity</label>
+    <label>Wrath Entity</label>
     <description>.</description>
     <uiIconPath>UI/CodexEntries/WrathEntity</uiIconPath>
     <race>

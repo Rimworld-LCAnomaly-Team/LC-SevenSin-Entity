@@ -27,8 +27,8 @@
   <!-- Gluttony -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>GluttonyDead</defName>
-    <label>GluttonyDead</label>
-    <description>GluttonyDead</description>
+    <label>Dead Gluttony</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/GluttonyDead</texPath>
@@ -42,8 +42,8 @@
   <!-- Lust -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>LustDead</defName>
-    <label>LustDead</label>
-    <description>LustDead</description>
+    <label>Dead Lust</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/LustDead</texPath>
@@ -57,8 +57,8 @@
   <!-- Melancholy -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>MelancholyDead</defName>
-    <label>MelancholyDead</label>
-    <description>MelancholyDead</description>
+    <label>Dead Melancholy</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/MelancholyDead</texPath>
@@ -72,8 +72,8 @@
   <!-- Pride -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>PrideDead</defName>
-    <label>PrideDead</label>
-    <description>PrideDead</description>
+    <label>Dead Pride</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/PrideDead</texPath>
@@ -87,8 +87,8 @@
   <!-- Sloth -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>SlothDead</defName>
-    <label>SlothDead</label>
-    <description>SlothDead</description>
+    <label>Dead Sloth</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/SlothDead</texPath>
@@ -102,8 +102,8 @@
   <!-- Wrath -->
   <ThingDef ParentName="SevenSinDeadBase">
     <defName>WrathDead</defName>
-    <label>WrathDead</label>
-    <description>WrathDead</description>
+    <label>Dead Wrath</label>
+    <description>.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Things/Item/Resource/Dead/WrathDead</texPath>

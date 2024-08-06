@@ -13,7 +13,7 @@
   <!-- Gluttony -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>GluttonyEntity</defName>
-    <label>GluttonyEntity</label>
+    <label>Gluttony Entity</label>
     <race>GluttonyEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
@@ -36,7 +36,7 @@
   <!-- Lust -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>LustEntity</defName>
-    <label>LustEntity</label>
+    <label>Lust Entity</label>
     <race>LustEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
@@ -59,7 +59,7 @@
   <!-- Melancholy -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>MelancholyEntity</defName>
-    <label>MelancholyEntity</label>
+    <label>Melancholy Entity</label>
     <race>MelancholyEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
@@ -82,7 +82,7 @@
   <!-- Pride -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>PrideEntity</defName>
-    <label>PrideEntity</label>
+    <label>Pride Entity</label>
     <race>PrideEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
@@ -105,7 +105,7 @@
   <!-- Sloth -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>SlothEntity</defName>
-    <label>SlothEntity</label>
+    <label>Sloth Entity</label>
     <race>SlothEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
@@ -128,7 +128,7 @@
   <!-- Wrath -->
   <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>WrathEntity</defName>
-    <label>WrathEntity</label>
+    <label>Wrath Entity</label>
     <race>WrathEntity</race>
     <combatPower>20</combatPower>
     <anomalyLevelTag>ZAYIN</anomalyLevelTag>
