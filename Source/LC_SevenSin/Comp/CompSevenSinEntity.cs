@@ -24,7 +24,7 @@ namespace LC_SevenSin.Comp
         {
             if (studier.skills.GetSkill(SkillDefOf.Intellectual).Level < 1)
             {
-                Log.Message($"工作：{studier.Name}的技能{SkillDefOf.Intellectual.defName.Translate()}等级不足1，工作固定无法成功");
+                //Log.Message($"工作：{studier.Name}的技能{SkillDefOf.Intellectual.defName.Translate()}等级不足1，工作固定无法成功");
                 return false;
             }
 
