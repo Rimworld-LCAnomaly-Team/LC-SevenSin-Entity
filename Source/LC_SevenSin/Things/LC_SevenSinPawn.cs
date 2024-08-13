@@ -1,4 +1,6 @@
 ﻿using LCAnomalyLibrary.Comp;
+using RimWorld;
+using Verse;
 
 namespace LC_SevenSin.Things
 {
