@@ -1,6 +1,5 @@
-﻿using LCAnomalyLibrary.Comp;
-using RimWorld;
-using Verse;
+﻿using LC_SevenSin.Comp;
+using LCAnomalyLibrary.Comp;
 
 namespace LC_SevenSin.Things
 {
@@ -8,6 +7,18 @@ namespace LC_SevenSin.Things
     {
         public LC_SevenSinPawn()
         {
+
+        }
+
+        public override void Tick()
+        {
+            //收容状态下丢下就出逃
+            if (CarriedBy == null)
+            {
+                GetComp<CompSevenSinEntity>()?.Notify_Escaped();
+            }
+
+            base.Tick();
         }
     }
 }
