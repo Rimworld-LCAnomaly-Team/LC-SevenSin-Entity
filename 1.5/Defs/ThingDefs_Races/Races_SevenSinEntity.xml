@@ -88,7 +88,7 @@
           </li>
         </points>
       </li>
-      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_Studiable">
+      <li Class="LCAnomalyCore.Comp.LC_CompProperties_Studiable">
         <frequencyTicks>60000</frequencyTicks>
         <studyTimesPeriod>1</studyTimesPeriod>
         <knowledgeCategory>Basic</knowledgeCategory>

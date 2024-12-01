@@ -1,5 +1,5 @@
 ﻿using LC_SevenSin.Comp;
-using LCAnomalyLibrary.Comp;
+using LCAnomalyCore.Comp;
 
 namespace LC_SevenSin.Things
 {

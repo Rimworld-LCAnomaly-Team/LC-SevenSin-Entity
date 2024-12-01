@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin Name="BaseSevenSinEntityKind" Abstract="True">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin Name="BaseSevenSinEntityKind" Abstract="True">
     <defaultFactionType>Entities</defaultFactionType>
     <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
     <meleeAttackInfectionPathways>
       <li>EntityAttacked</li>
     </meleeAttackInfectionPathways>
     <forceDeathOnDowned>false</forceDeathOnDowned>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Gluttony -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>GluttonyEntity</defName>
     <label>Gluttony Entity</label>
     <race>GluttonyEntity</race>
@@ -31,10 +31,10 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Lust -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>LustEntity</defName>
     <label>Lust Entity</label>
     <race>LustEntity</race>
@@ -54,10 +54,10 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Melancholy -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>MelancholyEntity</defName>
     <label>Melancholy Entity</label>
     <race>MelancholyEntity</race>
@@ -77,10 +77,10 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Pride -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>PrideEntity</defName>
     <label>Pride Entity</label>
     <race>PrideEntity</race>
@@ -100,10 +100,10 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Sloth -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>SlothEntity</defName>
     <label>Sloth Entity</label>
     <race>SlothEntity</race>
@@ -123,10 +123,10 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
   <!-- Wrath -->
-  <LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
+  <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin ParentName="BaseSevenSinEntityKind">
     <defName>WrathEntity</defName>
     <label>Wrath Entity</label>
     <race>WrathEntity</race>
@@ -146,6 +146,6 @@
         </silhouetteGraphicData>
       </li>
     </lifeStages>
-  </LCAnomalyLibrary.Defs.PawnKindDef_AnomalyEntity_SevenSin>
+  </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 
 </Defs>
