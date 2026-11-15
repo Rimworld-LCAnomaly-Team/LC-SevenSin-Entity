@@ -2,11 +2,8 @@
 <Defs>
 
   <LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin Name="BaseSevenSinEntityKind" Abstract="True">
-    <defaultFactionType>Entities</defaultFactionType>
+    <defaultFactionType>LC_Abnormalities</defaultFactionType>
     <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
-    <meleeAttackInfectionPathways>
-      <li>EntityAttacked</li>
-    </meleeAttackInfectionPathways>
     <forceDeathOnDowned>false</forceDeathOnDowned>
   </LCAnomalyCore.Defs.PawnKindDef_AnomalyEntity_SevenSin>
 

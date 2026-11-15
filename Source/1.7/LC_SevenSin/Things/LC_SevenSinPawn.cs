@@ -13,7 +13,7 @@ namespace LC_SevenSin.Things
         protected override void Tick()
         {
             //收容状态下丢下就出逃
-            if (CarriedBy == null && EntityComp != null && !EntityComp.Escaped)
+            if (Spawned && CarriedBy == null && EntityComp != null && !EntityComp.Escaped)
             {
                 GetComp<CompSevenSinEntity>()?.Notify_Escaped();
             }
