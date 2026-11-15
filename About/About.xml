@@ -4,6 +4,7 @@
 	<author>DarthCY</author>
 	<supportedVersions>
 		<li>1.5</li>
+	  <li>1.7</li>
 	</supportedVersions>
 	<description>Add 6 SevenSin Entities from LimbusCompany.</description>
 	<url>https://github.com/DarthCY-K/LC-SevenSin-Entity</url>

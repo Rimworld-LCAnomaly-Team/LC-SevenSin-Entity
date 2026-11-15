@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ZAYIN -->
+  <LCAnomalyCore.Defs.AbnormalityCodexEntryDef>
+      <defName>SevenSinEntity_ZAYIN</defName>
+    <label>SevenSin Entity (ZAYIN)</label>
+    <description>SevenSinEntity_ZAYIN.</description>
+    <uiIconPath>UI/CodexEntries/SevenSinEntity</uiIconPath>
+    <category>ZAYIN</category>
+    <orderInCategory>800</orderInCategory>
+  </LCAnomalyCore.Defs.AbnormalityCodexEntryDef>
+
+</Defs>
